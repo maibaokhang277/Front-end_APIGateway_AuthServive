@@ -1,0 +1,110 @@
+/* =====================================================
+   styles/globals.css
+   Global style overrides cho UniBank iBanking
+   ===================================================== */
+
+/* Font chữ */
+body {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  color: #212529;
+  background-color: #f0f2f5;
+}
+
+/* ─── Tinh chỉnh Bootstrap ─── */
+
+/* Bỏ đường viền focus mặc định - dùng custom */
+.form-control:focus,
+.btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 77, 153, 0.25);
+}
+
+/* Input group liền mạch */
+.input-group-text {
+  background-color: #f8f9fa;
+}
+
+/* Badge pill nhỏ hơn */
+.badge-pill {
+  padding: 0.3em 0.65em;
+}
+
+/* Card mượt mà hơn */
+.card {
+  border-radius: 0.5rem;
+}
+
+.card-header {
+  border-radius: 0.5rem 0.5rem 0 0 !important;
+}
+
+/* Fieldset legend đẹp hơn */
+fieldset.border {
+  border-radius: 0.4rem;
+}
+
+fieldset legend {
+  float: none;
+  width: auto;
+  padding: 0 6px;
+  background: white;
+  margin-left: 12px;
+}
+
+/* Navbar link */
+.navbar-brand {
+  font-size: 1rem;
+}
+
+/* Table hàng hover nhẹ */
+.table-hover tbody tr:hover {
+  background-color: #f0f7ff;
+}
+
+/* Modal backdrop */
+.modal-backdrop.show {
+  opacity: 0.55;
+}
+
+/* Transition mượt cho nút */
+.btn {
+  transition: all 0.2s ease;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Scrollbar cho bảng responsive */
+.table-responsive::-webkit-scrollbar {
+  height: 6px;
+}
+
+.table-responsive::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+  background: #c5cfd6;
+  border-radius: 3px;
+}
+
+/* Alert đóng mượt */
+.alert {
+  border-radius: 0.4rem;
+}
+
+/* Breadcrumb tối giản */
+.breadcrumb {
+  margin-bottom: 0;
+}
+
+/* Code tag */
+code {
+  font-size: 0.8rem;
+  color: #e83e8c;
+  background-color: #f8f9fa;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
